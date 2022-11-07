@@ -13,7 +13,7 @@
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 red--text"
+          class="mx-4 black--text"
           icon
         >
           <v-icon size="24px">
@@ -28,7 +28,7 @@
 
       <v-divider></v-divider>
 
-      <v-card-text class="red--text">
+      <v-card-text class="black--text">
         {{ new Date().getFullYear() }} — <strong>MF GAME STORE</strong>
       </v-card-text>
     </v-card>

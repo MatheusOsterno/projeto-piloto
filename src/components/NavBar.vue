@@ -46,6 +46,8 @@ export default {
 </script>
 <style scoped>
 img {
+  display: flex;
+  align-items: center;
   width: 120px;
 }
 
